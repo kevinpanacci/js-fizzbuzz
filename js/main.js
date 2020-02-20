@@ -1,6 +1,6 @@
 myList = [];
 
-for (var i = 0; i < 101; i++) {
+for (var i = 1; i <= 100; i++) {
     if (i % 15 == 0) {
         myList.push('fizzbuzz');
     } else if (i % 5 == 0) {
